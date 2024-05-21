@@ -1,0 +1,26 @@
+.items-container {
+  margin-top: 12px;
+  background-color: bisque;
+  border-radius: 12px;
+  padding: 9px 3px;
+}
+.btns-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  padding: 12px 18px;
+  background-color: rgb(105, 105, 216);
+  color: white;
+  border: none;
+  font-weight: bolder;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: rgb(55, 55, 219);
+}
+.item-container {
+  display: flex;
+  flex-direction: column;
+}
